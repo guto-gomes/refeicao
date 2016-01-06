@@ -1,0 +1,38 @@
+<ion-view view-title="Bem-vindo ao Refeições">
+  <ion-content>
+
+    <h5 class="text-center dark padding">Acesse nosso app para ter sua dieta do dia em mãos.</h5>
+
+    <form name="access">
+      <div class="list">
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Nome</span>
+          <input type="text" ng-model="access.name" placeholder="Nome" required>
+        </label>
+
+        <label class="item item-input item-floating-label">
+          <span class="input-label">E-mail</span>
+          <input type="text" ng-model="access.email" placeholder="E-mail" required>
+        </label>
+
+        <label class="item item-input item-floating-label">
+          <span class="input-label">CPF</span>
+          <input type="text" ng-model="access.cpf" placeholder="CPF" maxlength="11" required>
+        </label>
+
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Código de Ativação</span>
+          <input type="text" ng-model="access.cod" placeholder="Código de Ativação" required>
+        </label>
+
+        <br>
+
+        <a href="#/tab/manha">
+          <div class="padding">
+            <button class="button button-block button-balanced" ng-disabled="access.$invalid" type="submit">ENTRAR</button>
+          </div>
+        </a>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>

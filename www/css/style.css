@@ -1,0 +1,7 @@
+/* Empty. Add your own CSS if you like */
+
+@media (min-device-width: 480px) and (max-device-width: 800px) {
+  body {
+    zoom:160%;
+  } 
+}

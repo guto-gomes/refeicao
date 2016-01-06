@@ -1,0 +1,48 @@
+<ion-view view-title="Refeição">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-icon-left item-stable"><i class="icon ion-coffee" style="font-size:3em;"></i> Café da Tarde</div>
+      <div class="item item-body">
+        <p>Seguir a lista abaixo, marque o que consumiu:</p>
+      </div>
+      <ul class="list">
+        <li class="item item-toggle">
+           Porção de frutas com granola
+           <label class="toggle toggle-balanced">
+             <input type="checkbox" ng-model="frutas">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+        </li>
+        <li class="item item-toggle">
+           1 barra de cereal
+           <label class="toggle toggle-balanced">
+             <input type="checkbox" ng-model="cereal">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+        </li>
+        <li class="item item-toggle">
+           1 Torrada integral
+           <label class="toggle toggle-balanced">
+             <input type="checkbox" ng-model="torrada">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+        </li>
+        <li class="item item-toggle">
+           1 Colher de chá de requeijão
+           <label class="toggle toggle-balanced">
+             <input type="checkbox" ng-model="requeijao">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+        </li>
+      </ul>
+    </div>
+  </ion-content>
+</ion-view>
